@@ -16,7 +16,7 @@ public class WeatherController {
     }
 
     @GetMapping("/api/test")
-    Map<String, Object> createWeather(){
+    String createWeather(){
         return "Success";
     }
 }
